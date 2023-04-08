@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - FilledCup
+  - CremaCup
+  - EmptyCup
+  - WithPipette
+  - CoffeeCup
+  - Collector
+  - Collectable
+  - Missile
+  - FlowingCoffee
+  - Ground
+  - Barricades
+  - CremaCupGate
+  - SellField
+  - Selled
+  - LidMaker
+  - FinishLine
+  - Destroyer
+  - DollarParticalEffect
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - EmptyCup
+  - FilledCup
+  - WithPipette
+  - CremaCup
+  - CoffeeCup
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
