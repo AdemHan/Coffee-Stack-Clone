@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Ayarlar.unity
     guid: 208fb5ebeb512e34c9143979d2462ab6
+  - enabled: 1
+    path: Assets/Scenes/Ana Sahne.unity
+    guid: 419b5d341cb73384e82b8a6fe3e95369
   m_configObjects: {}

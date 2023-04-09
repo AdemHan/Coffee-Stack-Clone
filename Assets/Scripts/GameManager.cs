@@ -229,9 +229,15 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(2);
     }
 
-    public void Ayarlar()
+    public void Settings()
     {
         SceneManager.LoadScene(4);
     }
+
+    public void Return()
+    {
+        SceneManager.LoadScene(5);
+    }
+
 
 }
