@@ -3,7 +3,23 @@ guid: e3f039f33c894fb44b26ee099cff10ab
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - player: {instanceID: 0}
+  - collectedCups: {instanceID: 0}
+  - Bills: {instanceID: 0}
+  - rootCoffee: {instanceID: 0}
+  - firstCoffee: {instanceID: 0}
+  - inCanvasCup1: {instanceID: 0}
+  - inCanvasCup2: {instanceID: 0}
+  - inCanvasCup3: {instanceID: 0}
+  - dustParticalEffect: {instanceID: 0}
+  - moneyParticalEffect: {instanceID: 0}
+  - virtualCam1: {instanceID: 0}
+  - virtualCam2: {instanceID: 0}
+  - virtualCam3: {instanceID: 0}
+  - gatheredMoneyText: {instanceID: 0}
+  - totalMoneyText: {instanceID: 0}
+  - finishUI: {fileID: 100000, guid: a0b670fa11fdfce4abaeea857a0f7f49, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

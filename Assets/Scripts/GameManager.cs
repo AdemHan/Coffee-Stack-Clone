@@ -209,9 +209,35 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds((totalMoney-(totalMoney%5))/10 + 1f);
         finishUI.SetActive(true);
     }
-
     public void PlayAgain()
     {
         SceneManager.LoadScene("SampleScene");
     }
+
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(0);
+    }
+
+    public void Shop()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    public void Name()
+    {
+        SceneManager.LoadScene(2);
+    }
+
+    public void Settings()
+    {
+        SceneManager.LoadScene(4);
+    }
+
+    public void Return()
+    {
+        SceneManager.LoadScene(5);
+    }
+
+
 }
