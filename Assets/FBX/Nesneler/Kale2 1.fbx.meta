@@ -1,24 +1,9 @@
 fileFormatVersion: 2
-guid: c1d5b34e4650abb4a8c85347c105cc5e
+guid: f3461296fc18d6f419eacefddf98f16f
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: cloth
-    second: {fileID: 2100000, guid: 7e88d2bd1cb5792458294247ea264cf1, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: hand
-    second: {fileID: 2100000, guid: 2907b5870a3b6ad4d82f2d42987f2fe7, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: nail
-    second: {fileID: 2100000, guid: ced2d6ba26d06494593a8d5a22e9ab57, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
