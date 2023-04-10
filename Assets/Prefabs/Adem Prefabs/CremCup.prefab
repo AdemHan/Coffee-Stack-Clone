@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 341080587876602973}
   m_Layer: 0
   m_Name: CremCup
-  m_TagString: Untagged
+  m_TagString: CremaCup
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
