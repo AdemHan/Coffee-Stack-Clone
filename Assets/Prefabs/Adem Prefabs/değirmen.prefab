@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8673916713266396073}
   - component: {fileID: 4544444128354330276}
   - component: {fileID: 191131722154821386}
+  - component: {fileID: 6562794762349107903}
   m_Layer: 0
   m_Name: Circle
   m_TagString: Untagged
@@ -101,6 +102,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &6562794762349107903
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 191131722154821387}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.10782679, y: 0.037266303, z: 0.10782678}
+  m_Center: {x: 0, y: 0, z: 0.00039867676}
 --- !u!1 &5114295433605588106
 GameObject:
   m_ObjectHideFlags: 0
@@ -112,7 +126,7 @@ GameObject:
   - component: {fileID: 5598660660763754032}
   m_Layer: 0
   m_Name: "de\u011Firmen"
-  m_TagString: Untagged
+  m_TagString: Barricades
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
