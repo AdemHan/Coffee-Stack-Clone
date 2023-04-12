@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/1.unity
     guid: 544d0b89bb7cebb44bf82d1a3668dc09
+  - enabled: 1
+    path: Assets/Scenes/Ara Sahne.unity
+    guid: 48b4686551d2de5438ec825d89b273eb
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
@@ -20,9 +23,6 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/\u0130sim Yazma Sahnesi.unity"
     guid: d446b84ad380c5d468455f6c7ff8487a
-  - enabled: 1
-    path: Assets/Scenes/Ara Sahne.unity
-    guid: 48b4686551d2de5438ec825d89b273eb
   - enabled: 1
     path: Assets/Scenes/AyarlarSahnesi.unity
     guid: b07c9ce29fa0c1a45a477398bbad33b0

@@ -61,7 +61,6 @@ public class GameManager : MonoBehaviour
     public GameObject virtualCam3;
     public TextMeshProUGUI gatheredMoneyText;
     public TextMeshProUGUI totalMoneyText;
-    public GameObject finishUI;
 
     
     void Awake()
@@ -207,7 +206,6 @@ public class GameManager : MonoBehaviour
         player.transform.DOMoveY(((totalMoney-(totalMoney%5))/5) + 2.5f,
         (totalMoney-(totalMoney%5))/20 + 1f);
         yield return new WaitForSeconds((totalMoney-(totalMoney%5))/10 + 1f);
-        finishUI.SetActive(true);
     }
     public void PlayAgain()
     {
@@ -221,12 +219,12 @@ public class GameManager : MonoBehaviour
 
     public void Shop()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
     }
 
     public void Name()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
     }
 
     public void Settings()
@@ -239,5 +237,8 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
-
+    public void SahneGecis()
+    {
+        SceneManager.LoadScene(2);
+    }
 }
