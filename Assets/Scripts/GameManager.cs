@@ -241,4 +241,10 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(2);
     }
+
+    public void Next()
+    {
+        SceneManager.LoadScene(6);
+    }
+
 }
