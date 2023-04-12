@@ -14,11 +14,11 @@ public class Collisions : MonoBehaviour
 
     void Awake()
     {
-        CremaCup = this.gameObject.transform.GetChild(0).gameObject;
-        EmptyCup = this.gameObject.transform.GetChild(2).gameObject;
-        FilledCup = this.gameObject.transform.GetChild(1).gameObject;
-        WithPipette = this.gameObject.transform.GetChild(4).gameObject;
-        LidCup = this.gameObject.transform.GetChild(3).gameObject;
+        CremaCup = this.gameObject.transform.GetChild(1).gameObject;
+        EmptyCup = this.gameObject.transform.GetChild(3).gameObject;
+        FilledCup = this.gameObject.transform.GetChild(2).gameObject;
+        WithPipette = this.gameObject.transform.GetChild(0).gameObject;
+        LidCup = this.gameObject.transform.GetChild(4).gameObject;
         checkBools = GetComponent<CheckBools>();
         collectedCups = GameObject.Find("CollectedCups").transform;
         
